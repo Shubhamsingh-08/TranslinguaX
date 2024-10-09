@@ -13,6 +13,7 @@ TRANSLATOR_LOCATION = os.getenv("TRANSLATOR_LOCATION")
 
 # Supported languages (can be expanded as needed)
 supported_languages = {
+    'en': 'English',
     'fr': 'French',
     'es': 'Spanish',
     'de': 'German',
@@ -22,7 +23,7 @@ supported_languages = {
     'zh-Hans': 'Chinese (Simplified)',
     'ru': 'Russian',
     'pt': 'Portuguese',
-    'hi': 'Hindi'
+    'hi': 'Hindi'   
 }
 
 # Function to translate text using Azure Translator
